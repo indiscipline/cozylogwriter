@@ -12,15 +12,18 @@ Cozy Log Writer is a basic logging module for Nim programs. It automatically use
 - Respects the `NO_COLOR` environment variable (unless compiled with `-d:ClwIgnoreNocolor`)
 
 ## Installation
-Cozy Log Writer is not yet the nimble directory, `git clone` or just download the module.
 
-Upon acceptance in the nimble directory, use `atlas` or `nimble` to install:
-```
-atlas use cozytaskpool
+Requires Nim >= 2.0.0.
+
+Cozy Log Writer is in the [Nimble directory](https://nimble.directory/pkg/cozylogwriter),
+use `atlas` or `nimble` to install:
+
+```bash
+atlas use cozylogwriter
 ```
 
-```
-nimble install cozytaskpool
+```bash
+nimble install cozylogwriter
 ```
 
 ## Usage
